@@ -1,0 +1,147 @@
+/* marelan.css */
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f9f9ff;
+  color: #333;
+}
+
+.profile-card {
+  display: flex;
+  max-width: 960px;
+  margin: 50px auto;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.profile-img {
+  flex: 1;
+  background: linear-gradient(to right, #7F00FF, #00BFFF);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+}
+
+.profile-img img {
+  width: 100%;
+  max-width: 250px;
+  border-radius: 10px;
+  object-fit: cover;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.profile-info {
+  flex: 1;
+  padding: 40px;
+}
+
+.intro {
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #888;
+  margin-bottom: 10px;
+}
+
+.profile-info h1 {
+  font-size: 32px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.profile-info h2 {
+  font-size: 18px;
+  color: #555;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.description {
+  font-size: 15px;
+  line-height: 1.6;
+  margin-bottom: 25px;
+  color: #666;
+}
+
+.contact-info {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 14px;
+}
+
+.contact-info li {
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+  color: #333;
+}
+
+.contact-info li::before {
+  content: '•';
+  margin-right: 10px;
+  color: #7F00FF;
+}
+
+/* Offerings Section */
+.offerings {
+  max-width: 960px;
+  margin: 40px auto;
+  text-align: center;
+  padding: 0 20px;
+}
+
+.offerings h2 {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.offerings .subtext {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 30px;
+}
+
+.offerings-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.offering-box {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+  padding: 30px 20px;
+  max-width: 280px;
+  flex: 1 1 260px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.offering-box:hover {
+  transform: translateY(-5px);
+}
+
+.icon {
+  font-size: 36px;
+  margin-bottom: 15px;
+}
+
+.offering-box h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+
+.offering-box p {
+  font-size: 14px;
+  color: #555;
+  line-height: 1.5;
+}
